@@ -1,0 +1,45 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_cricket_score
+  - ask_cricket_match_schedule
+  - ask_cricket_player_info
+  - ask_cricket_team_info
+  - ask_cricket_news
+  - ask_cricket_live_updates
+  - ask_cricket_ranking
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_affirm:
+    - text: "Glad to hear that!"
+  utter_iamabot:
+    - text: "Yes, I am a bot here to help you!"
+  utter_happy:
+    - text: "I'm glad to hear that!"
+  utter_cheer_up:
+    - text: "Here's something to cheer you up!"
+  utter_did_that_help:
+    - text: "Did that help?"  
+  utter_mood_great:
+    - text: "That's fantastic! What’s making you feel so good?"
+  utter_mood_unhappy:
+    - text: "I'm sorry to hear that. Want to talk about it?"
+
+
+
+actions:
+  - action_fetch_cricket_info
+  - action_chatgpt_response
+
+
