@@ -1,0 +1,48 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: chat_with_chatgpt
+  steps:
+  - intent: ask_cricket_score
+  - action: action_fetch_cricket_info
+  - intent: ask_cricket_match_schedule
+  - action: action_fetch_cricket_info
+  - intent: ask_cricket_player_info
+  - action: action_fetch_cricket_info
+  - intent: ask_cricket_team_info
+  - action: action_fetch_cricket_info
+  - intent: ask_cricket_news
+  - action: action_fetch_cricket_info
+  - intent: ask_cricket_live_updates
+  - action: action_fetch_cricket_info
+  - intent: ask_cricket_ranking
+  - action: action_fetch_cricket_info

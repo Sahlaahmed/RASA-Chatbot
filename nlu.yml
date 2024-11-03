@@ -1,0 +1,152 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - happy
+    - good
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+
+- intent: ask_cricket_score
+  examples: |
+    - What is the current score?
+    - Can you give me the score of today's match?
+    - Score update for India vs. Australia
+    - What's the score of the match right now?
+    - What's the score for the cricket game?
+
+- intent: ask_cricket_match_schedule
+  examples: |
+    - When is the next cricket match?
+    - What time does today's IPL match start?
+    - Schedule for tomorrow's matches
+    - When is India playing next?
+    - When is the World Cup final?
+
+- intent: ask_cricket_player_info
+  examples: |
+    - Tell me about Virat Kohli's stats
+    - How many wickets did Jasprit Bumrah take in the last match?
+    - What is Rohit Sharma's batting average?
+    - Give me the performance of Ben Stokes
+    - How has Steve Smith performed in 2023?
+
+- intent: ask_cricket_team_info
+  examples: |
+    - What is the Indian cricket team lineup for today?
+    - Who is playing in England's team for the next match?
+    - Give me details of the Australia cricket team
+    - How has the South African cricket team been performing?
+    - Can you tell me about the Pakistan cricket team's recent performance?
+
+- intent: ask_cricket_news
+  examples: |
+    - Any recent news about cricket?
+    - What's the latest cricket update?
+    - What are the latest cricket headlines?
+    - Tell me some news about IPL
+    - What's the latest cricket buzz?
+
+- intent: ask_cricket_live_updates
+  examples: |
+    - Can you give me live updates for today's match?
+    - Live updates on India vs. Australia, please.
+    - What is happening in today's match right now?
+    - Any live updates for the World Cup match?
+
+- intent: ask_cricket_ranking
+  examples: |
+    - What are the current ICC Test rankings?
+    - Who is the top ODI batsman?
+    - What is India's ranking in T20 cricket?
+    - Who is the number one bowler in Tests?
+    - Show me the cricket world rankings.
+
+
